@@ -1,0 +1,448 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-wrap: nowrap;
+}
+
+.navClass {
+    background-color: #072E33;
+    height: 52px;
+    position: fixed;
+    width: 100%;
+}
+
+.navClass .icons .noAccounts {
+    float: left;
+    margin-left: 300px;
+    font-size: 55px;
+}
+
+.navClass .icons .noAccounts:hover {
+    color: aqua;
+    font-size: 70px;
+}
+
+.navClass .icons .myHome {
+    color: aliceblue;
+    font-size: 20px;
+    float: left;
+    margin-top: 16px;
+    margin-left: 11%;
+}
+
+.navClass .icons .myHome:hover {
+    color: aqua;
+    font-size: 30px;
+}
+
+.navClass .icons .myProjects {
+    color: aliceblue;
+    font-size: 20px;
+    float: left;
+    margin-top: 16px;
+    margin-left: 5%;
+}
+
+.navClass .icons .myProjects:hover {
+    color: aqua;
+    font-size: 30px;
+}
+
+.navClass .icons .myContact:hover {
+    color: aqua;
+    font-size: 30px;
+}
+
+.navClass .icons .myAbout:hover {
+    color: aqua;
+    font-size: 30px;
+}
+
+.navClass .icons .myContact {
+    color: aliceblue;
+    font-size: 20px;
+    float: left;
+    margin-top: 16px;
+    margin-left: 5%;
+}
+
+.navClass .icons .myAbout {
+    color: aliceblue;
+    font-size: 20px;
+    float: left;
+    margin-top: 16px;
+    margin-left: 5%;
+}
+
+.navClass .icons .myMenu {
+    float: right;
+    color: aliceblue;
+    margin-right: 20%;
+    margin-top: 8px;
+    font-size: 34px;
+}
+
+.navClass .icons .myMenu:hover {
+    color: aqua;
+    font-size: 60px;
+}
+
+.middle {
+    background-color: #072E33;
+    height: 300px;
+    margin-top: 85px;
+    margin-left: 13px;
+    margin-right: 13px;
+    border-radius: 45px;
+}
+
+.middle .myPhoto {
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    margin-left: 18%;
+    margin-top: 26px;
+    float: left;
+}
+
+.middle .header {
+    color: aliceblue;
+    float: right;
+    font-size: 65px;
+    margin-right: 27%;
+    margin-top: 2%;
+}
+
+.middle .facebookIcon {
+    fill: black;
+    margin-left: 51px;
+    margin-bottom: -130px;
+}
+
+.middle .facebookIcon:hover {
+    fill: aqua;
+
+}
+
+.middle .linkedIcon:hover {
+    fill: aqua;
+
+}
+
+.middle .instaIcon:hover {
+    fill: aqua;
+
+}
+
+.middle .youtubeIcon:hover {
+    fill: aqua;
+
+}
+
+.middle .tiktokIcon:hover {
+    fill: aqua;
+
+}
+
+.middle .youtubeIcon {
+    fill: black;
+    margin-left: 15px;
+    margin-bottom: -130px;
+}
+
+.middle .instaIcon {
+    fill: black;
+    margin-left: 15px;
+    margin-bottom: -130px;
+}
+
+.middle .tiktokIcon {
+    fill: black;
+    margin-left: 15px;
+    margin-bottom: -130px;
+}
+
+.middle .linkedIcon {
+    fill: black;
+    margin-left: 15px;
+    margin-bottom: -130px;
+}
+
+.middle .lorem {
+    color: aliceblue;
+    margin-top: 57px;
+    margin-left: -127px;
+    float: left;
+    font-size: 23px;
+}
+
+.skills .skillsHeader {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 43px;
+    padding-bottom: 20px;
+}
+
+.skills .arduino {
+    width: 30%;
+    float: left;
+    background-color: #072E33;
+    margin-left: 52px;
+    border-radius: 20px;
+    height: 310px;
+}
+
+.skills .arduino:hover {
+    background-color: cadetblue;
+}
+
+.skills .arduino .devicon-arduino-plain {
+    color: aliceblue;
+    font-size: 100px;
+    margin-left: 38%;
+    margin-top: 65px;
+    float: left;
+}
+
+.skills .arduino .arduinoWord {
+    color: aliceblue;
+    float: left;
+    margin-top: 50%;
+    margin-left: -130px;
+    font-size: 45px;
+}
+
+.skills .c {
+    width: 30%;
+    float: left;
+    background-color: #072E33;
+    margin-left: 20px;
+    border-radius: 20px;
+    height: 310px;
+}
+
+.skills .c:hover {
+    background-color: cadetblue;
+}
+
+.skills .cPlusPlus:hover {
+    background-color: cadetblue;
+}
+
+.skills .githup:hover {
+    background-color: cadetblue;
+}
+
+.skills .c .cWord {
+    color: aliceblue;
+    float: left;
+    margin-top: 15%;
+    margin-left: 75px;
+    font-size: 45px;
+}
+
+.skills .c .devicon-c-line-wordmark {
+    color: aliceblue;
+    float: left;
+    margin-left: 38%;
+    font-size: 115px;
+    margin-top: 56px;
+}
+
+.skills .cPlusPlus {
+    width: 30%;
+    float: left;
+    background-color: #072E33;
+    margin-left: 20px;
+    border-radius: 20px;
+    height: 310px;
+}
+
+.skills .cPlusPlus .devicon-cplusplus-line {
+    color: aliceblue;
+    float: left;
+    margin-left: 38%;
+    font-size: 115px;
+    margin-top: 56px;
+}
+
+.skills .cPlusPlus .cPlusPlusWord {
+    color: aliceblue;
+    float: left;
+    margin-top: 17%;
+    margin-left: 192px;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.skills .githup {
+    width: 30%;
+    float: left;
+    background-color: #072E33;
+    margin-left: 52px;
+    border-radius: 20px;
+    height: 310px;
+    margin-top: 20px;
+}
+
+.skills .githup .githupWord {
+    color: aliceblue;
+    float: left;
+    margin-top: 17%;
+    margin-left: 150px;
+    font-size: 45px;
+}
+
+.skills .githup .devicon-github-original-wordmark {
+    color: aliceblue;
+    float: left;
+    margin-left: 37%;
+    font-size: 115px;
+    margin-top: 48px;
+}
+
+.skills .javaScript {
+    width: 30%;
+    float: left;
+    background-color: #072E33;
+    margin-left: 20px;
+    border-radius: 20px;
+    height: 310px;
+    margin-top: 20px;
+}
+
+.skills .javaScript:hover {
+    background-color: cadetblue;
+}
+
+.skills .javaScript .devicon-javascript-plain {
+    color: aliceblue;
+    float: left;
+    margin-left: 37%;
+    font-size: 115px;
+    margin-top: 48px;
+}
+
+.skills .javaScriptWord {
+    color: aliceblue;
+    float: left;
+    margin-top: 17%;
+    margin-left: 125px;
+    font-size: 45px;
+}
+
+.skills .css {
+    width: 30%;
+    float: left;
+    background-color: #072E33;
+    margin-left: 20px;
+    border-radius: 20px;
+    height: 310px;
+    margin-top: 20px;
+}
+
+.skills .css:hover {
+    background-color: cadetblue;
+}
+
+.skills .css .devicon-css3-plain {
+    color: aliceblue;
+    float: left;
+    margin-left: 37%;
+    font-size: 115px;
+    margin-top: 48px;
+}
+
+.skills .cssWord {
+    color: aliceblue;
+    float: left;
+    margin-top: 17%;
+    margin-left: 175px;
+    font-size: 45px;
+}
+
+.skills .html {
+    width: 30%;
+    float: left;
+    background-color: #072E33;
+    margin-left: 52px;
+    border-radius: 20px;
+    height: 310px;
+    margin-top: 20px;
+}
+
+.skills .html:hover {
+    background-color: cadetblue;
+}
+
+.skills .html .devicon-html5-plain {
+    color: aliceblue;
+    float: left;
+    margin-left: 37%;
+    font-size: 115px;
+    margin-top: 48px;
+}
+
+.skills .html .htmlWord {
+    color: aliceblue;
+    float: left;
+    margin-top: 17%;
+    margin-left: 144px;
+    font-size: 45px;
+}
+
+.major .web {
+    width: 30%;
+    float: left;
+    background-color: #072E33;
+    margin-left: 52px;
+    border-radius: 20px;
+    height: 310px;
+    margin-top: 20px;
+}
+
+.major .web:hover {
+    background-color: cadetblue;
+}
+
+.major .web .material-symbols-outlined {
+    color: aliceblue;
+    float: left;
+    margin-left: 37%;
+    font-size: 115px;
+    margin-top: 48px;
+}
+
+.major .majorHeader {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 66%;
+    font-size: 43px;
+    padding-bottom: 20px;
+}
+
+.major .web .webWord {
+    color: aliceblue;
+    float: left;
+    margin-top: 17%;
+    margin-left: 100px;
+    font-size: 45px;
+}
+
+.projects .projectsHeader {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 26%;
+    font-size: 43px;
+    padding-bottom: 20px;
+}
+
+
+.projects .add .addIcon {
+    color: aliceblue;
+    float: left;
+    margin-left: 22%;
+    font-size: 42px;
+    margin-top: 30%;
+}
